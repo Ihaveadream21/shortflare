@@ -4,7 +4,7 @@ addEventListener('fetch', event => {
 
 const KV_NAMESPACE = LINKS;
 
-const ALLOWED_IPS = ["192.158.1.0", "192.168.1.2"]; // Add allowed IPs here
+const ALLOWED_IPS = ["176.1.128.65"]; // Add allowed IPs here
 
 async function handleRequest(request) {
     const url = new URL(request.url);
